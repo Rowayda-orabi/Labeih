@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+
+<body>
+    <section class="mycontainer">
+        <div class="content  text-center">
+            <img src="images/login/login.png" class="mt-5">
+            
+            <!-- first user interface for old users -------------------------------------------------- -->
+            <div class="login-content ">
+                    <span class="heading">تسجيل دخول</span>
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type=tel placeholder="رقم التجوال" data-validation="length" data-validation-length="min12" data-validation-error-msg-length="يجب ان لا يقل الرقم عن 12 رقم">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="password" type=password placeholder="كلمة المرور" data-validation="required" data-validation-error-msg="ادخل كلمة المرور">
+                    </div>
+                </form>
+                   <a class="links forget">نسيت كلمة المرور؟</a>
+                    <div>
+                        ليس لدي حساب
+                        <a class="newlog links" href="new-login.html">تسجيل جديد</a>
+                    </div>
+                <button class="login btn"><a  href="index.html">دخول</a></button>
+            </div>
+            
+            
+            
+
+            <!-- user interface for entering phone number -------------------------------------------------- -->
+            <div class="forgoten-content none" >
+                <h6>نسيت كلمة المرور</h6>
+                <span class="heading">برجاء إدخال رقم الجوال لإرسال كود التفعيل</span>
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type=tel placeholder="رقم الجوال" data-validation="length" data-validation-length="min12" data-validation-error-msg-length="يجب ان لا يقل الرقم عن 12 رقم">
+                    </div>
+                </form>
+                <button class="login btn send">ارسال</button>
+                <button class="login btn return">رجوع</button>
+            </div>
+
+
+            <!-- user interface for entering verification code------------------------------------------------ -->
+            <div class="verify-content none">
+                <h6>نسيت كلمة المرور</h6>
+                <span class="heading">ادخل كود التفعيل</span>
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type=text placeholder="كود التفعيل">
+                    </div>
+                </form>
+                <button class="login btn enter">إرسال</button>
+                <button class="login btn back">رجوع</button>
+            </div>
+
+
+            <!-- user interface to select new passowrd-------------------------------------------------- -->
+            <div class="newPassword none">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type=password name="password" placeholder="كلمة المرور" data-validation="required" data-validation-error-msg="ادخل كلمة المرور">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type=password placeholder="تأكيد كلمة المرور" data-validation="confirmation" data-validation-confirm="password" data-validation-error-msg-confirmation="كلمات المرور غير متطابقه">
+                    </div>
+                </form>
+                <button class="login btn sure">تأكيد</button>
+                <button class="login btn unsure">رجوع</button>
+            </div>
+
+        </div>
+    </section>
+    <script src="js/vendors/JQuery-3.3.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/vendors/jQuery-Form-Validator-master/form-validator/jquery.form-validator.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

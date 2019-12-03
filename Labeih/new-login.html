@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>signUp</title>
+</head>
+
+<body>
+    <section class="mycontainer">
+        <div class="content  text-center">
+            <img src="images/login/login.png" class="mt-5">
+            
+           <!-- first user interface for new users-------------------------------------------------- -->
+            <div class="signUp ">
+                    <span class="heading d-block">تسجيل جديد</span>
+                <div class="loginbuttons btn-group">
+                    <button class="btn ">مقدم خدمه</button>
+                    <button class="btn myactive">عميل</button>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type=text placeholder="الإسم الكامل" data-validation="required" data-validation-error-msg="الإسم مطلوب">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type=tel placeholder="رقم الجوال" data-validation="length" data-validation-length="min12" data-validation-error-msg-length="يجب ان لا يقل الرقم عن 12 رقم">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type=email placeholder="البريد الالكتروني" data-validation="email" data-validation-error-msg-email="بريدك الالكتروني غير صحيح">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" placeholder="المدينه">
+                            <option>الرياض</option>
+                            <option>حائل</option>
+                            <option>المدينه</option>
+                            <option>الدمام</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type=password name="password" placeholder="كلمة المرور" data-validation="required" data-validation-error-msg="ادخل كلمة المرور">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type=password placeholder="تأكيد كلمة المرور" data-validation="confirmation" data-validation-confirm="password" data-validation-error-msg-confirmation="كلمات المرور غير متطابقه">
+                    </div>
+                </form>
+                <div>لدي حساب بالفعل <a class="links" href="old-login.html">تسجيل الدخول</a></div>
+                <button class="login btn"><a  href="index.html">تسجيل</a></button>
+            </div>
+        </div>
+    </section>
+    <script src="js/vendors/JQuery-3.3.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/vendors/jQuery-Form-Validator-master/form-validator/jquery.form-validator.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

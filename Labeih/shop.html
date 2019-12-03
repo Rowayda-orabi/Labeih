@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+    <link href="css/vendor/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/vendor/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/yalpeehstyle.css" rel="stylesheet" />
+    <title>shop</title>
+</head>
+
+<body>
+    <header>
+        <section class=" container text-right">
+            <div class="row">
+                <div class="log col-sm-6 col-5">
+                        <span><i class="fa fa-user"></i><a href="old-login.html"> تسجيل دخول</a></span>
+                        <span><i class="fa fa-users"></i><a href="new-login.html"> تسجيل جديد</a></span>
+                    </div>
+                    <div class="conect col-sm-6 col-7">
+                        <span><i class="fa fa-phone"></i><a href="#">966 5698 5698 6542</a></span>
+                        <span><i class="fa fa-globe"></i><a href="#">اللغه </a></span>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+
+        <section class="container">
+        <div class="main-navigatin row">
+            <div class="navbar col-lg-7 col-12">
+                <a class="navbar-brand" href="index.html">
+                  <img class="logo" src=images/yalpeeh/login.png>
+                   </a>
+                   <ul class="nav">
+                    <li class="nav-item "><a class="nav-link" href="index.html">الرئيسيه</a></li>
+                    <li class="nav-item "><a class="nav-link" href="Categories.html">تصنيفات الدليل</a></li>
+                    <li class="nav-item " style="position: relative">
+                        <a class="nav-link" data-toggle="collapse" href=".dropdown-menu" aria-controls="collapseExample">
+                            المزيد
+                        </a>
+                        <ul class="collapse dropdown-menu text-right" id="collapseExample" >
+                            <li class="dropdown-item"><a class="toFavouritsPage">المفضله</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="about%20labeih.html">حول يالبيه</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="contact%20us.html">اتصل بنا</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="suggest%20place.html">اقترح مكان</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="policy.html">سياسه الموقع</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="notifications.html">الإشعارات
+                            <sup><span class="badre badge-danger badge-pill">1</span></sup></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="for-mobile col-lg-5 col-12">
+                <a href="#" class="col-6" >
+                    <img src="images/google-play.png">
+                </a>
+                <a href="#" class="col-6">
+                    <img src="images/app-store.png">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- shop ------------------------------------------- -->
+    <section class="shop mb-3">
+        <div class="inner-title text-center">
+            <h4> shop page </h4>
+            <h4> صفحة المحل </h4>
+        </div>
+        <div class="shop-content">
+            <div class="container text-right">
+                <h5>مطعم كرم الشام <a class="toFavouritsPage"><i class="fa fa-heart"></i></a> <a href="messages.html"><i class="fa fa-envelope"></i></a> </h5>
+                <div class="row">
+                    <div class="col-12 stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a class="rates"><span class="arc"> (</span> 10 تقييمات <span class="arc"> ) </span></a>
+                        <span class="arc">++SRA</span>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="shop-buttons">
+                            <button class="btn">
+                                <a href="shop-reservation.html#new-reservation"><i class="fa fa-calendar-alt"></i> حجوزات المحل</a>
+                            </button>
+                            <button class="btn" data-toggle="modal" data-target="#addEvaluateModal">
+                                <i class="fa fa-star"></i> أضف تقييم
+                            </button>
+                            <button class="btn">
+                                <a href="Reservation.html"><i class="fa fa-calendar"></i> حجز موعد</a>
+                            </button>
+                            <button class="btn" data-toggle="modal" data-target="#addPhotoModal">
+                                <i class="fa fa-plus-square"></i>اضافة صوره
+                            </button>
+                            <button class="btn">
+                                <a><i class="fa fa-share"></i>مشاركه</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- add photo modal-->
+                <div class="modal fade" id="addPhotoModal">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="modal-cont">
+                                    <div class="visitor-opinion row">
+                                        <img src="images/yalpeeh/user.png" class="col-2">
+                                        <div class="col-9">
+                                            <h6>أوامر الشبكه</h6>
+                                            <div class="form-row">
+                                                <input type="text" class="col-12 form-control form-control-lg" placeholder="وصف الصوره ...">
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-3">
+                                                    <img src="images/yalpeeh/shop/7.png" style="height: 100%">
+                                                </div>
+                                                <div class="col-3">
+                                                    <input type="file" id="file1">
+                                                    <label class="file-label" for="file1"><i class="fas fa-image fa-lg"></i></label>
+                                                </div>
+                                                <div class="col-3">
+                                                    <input type="file" id="file1">
+                                                    <label class="file-label" for="file1"><i class="fas fa-image fa-lg"></i></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="shop.html"><button class="btn send-suggest">مشاركه</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end add photo modal-->
+
+
+                <!-- add evaluate modal-->
+                <div class="modal fade" id="addEvaluateModal">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="modal-cont">
+                                    <div class="visitor-opinion row">
+                                        <img src="images/yalpeeh/user.png" class="col-2">
+                                        <div class="col-9">
+                                            <h6>أوامر الشبكه</h6>
+                                            <div class="stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <span class="arc" > (</span> قيم من 5 <span> ) </span>
+                                            </div>
+                                            <h6>تقييم السعر</h6>
+                                            <div class="radioButtonsGroup">
+                                                <input type="radio" name="radioButtons" id="radio1" value="option1" checked>
+                                                <label for="radio1"> +SAR </label>
+                                            </div>
+                                            <div class="radioButtonsGroup">
+                                                <input type="radio" name="radioButtons" id="radio2" value="option2" >
+                                                <label for="radio2"> ++SAR </label>
+                                            </div>
+                                            <div class="radioButtonsGroup">
+                                                <input type="radio" name="radioButtons" id="radio3" value="option3" >
+                                                <label for="radio3"> +++SAR </label>
+                                            </div>
+                                            <div class="radioButtonsGroup">   
+                                                <input type="radio" name="radioButtons" id="radio4" value="option4">
+                                                <label for="radio4"> ++++SAR </label>
+                                            </div>
+                                            <div class="radioButtonsGroup">   
+                                                <input type="radio" name="radioButtons" id="radio5" value="option5">
+                                                <label for="radio5"> +++++SAR </label>
+                                            </div>
+                                            <div class="form-row">
+                                                <input type="text" class="col-12 form-control form-control-lg" placeholder="اكتب تعليق ...">
+                                            </div>
+                                        </div>
+                                        <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="shop.html"><button class="btn send-suggest">اضافه</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end add evaluate modal-->
+
+
+
+
+
+
+
+
+                <div class="row" style="direction: ltr">
+                    <div class="col-md-4 col-12">
+                        <img src="images/yalpeeh/shop/map.png" style="width: 100%;">
+                    </div>
+                    <div class="col-md-8 col-12" style="font-size: 14px;direction: rtl">
+                        <div class="shop-text">
+                            <p>
+                                إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                            </p>
+                            <p>
+                                <span class="feature">الإمتيازات : </span>جلسات عائليه , مشروبات , واي فاي , منطقه للأطفال , قاعات مكيفه , وسائل تسليه
+                            </p>
+                            <p>
+                                <span class="feature">طرق الدفع : </span><img src="images/yalpeeh/shop/pay.png">
+                            </p>
+                        </div>
+                        <div class="social">
+                            <div>
+                                <p> <i class="fas fa-map-marker-alt"></i> السعوديه , مكه , شارع حي الجامعه </p>
+                                <p><i class="fa fa-phone"></i> 010-654-452-25 </p>
+
+                            </div>
+                            <div>
+                                <p><i class="fa fa-envelope"></i> labaih@gmail.com</p>
+                                <p><i class="fa fa-clock"></i> مفتوح الان</p>
+                            </div>
+                        </div>
+                        <div class="shop-time">
+                            <span><i class="fa fa-clock"></i></span>
+                            <div class="times">
+                                <div>
+                                    <p>السبت 9:00 ص إلي 2:00 ص</p>
+                                    <p>الأحد 9:00 ص إلي 2:00 ص</p>
+                                    <p>الإثنين 9:00 ص إلي 2:00 ص</p>
+                                </div>
+                                <div>
+                                    <p style="color: #ab0001 ;">الثلاثاء 9:00 ص إلي 2:00 ص</p>
+                                    <p>الأربعاء 9:00 ص إلي 2:00 ص</p>
+                                    <p>الخميس 9:00 ص إلي 2:00 ص</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h5 style="margin: 10px;">المنتجات</h5>
+                <div class="food-example">
+
+                    <div class=" food-slider owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="food">
+                                <img src="images/yalpeeh/shop/2.png">
+                                <div class="hidden-discrip">
+                                    <div class="discription">
+                                        <div class="disc-head">
+                                            <h6>باستا بكرات اللحم</h6>
+                                            <span>15 ر.س</span>
+                                        </div>
+                                        <p>باستا , كرات اللحم , صوص من اختيارك (وايت او ريد) , بطاطس فريسكس , شيبسي</p>
+                                    </div>
+                                    <div class="disc-icon">
+                                        <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                        <ul class="collapse dropdown-menu text-right" id="menu2">
+                                            <li class="dropdown-item"><a class="edit-post">تعديل</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li class="dropdown-item"><a class="delete">حذف</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item 1-->
+
+                        <div class="item ">
+                            <div class="food">
+                                <img src="images/yalpeeh/shop/3.png">
+                                <div class="hidden-discrip">
+                                    <div class="discription">
+                                        <div class="disc-head">
+                                            <h6>دجاج مشوي</h6>
+                                            <span>15 ر.س</span>
+                                        </div>
+                                        <p>باستا , كرات اللحم , صوص من اختيارك (وايت او ريد) , بطاطس فريسكس , شيبسي</p>
+                                    </div>
+                                    <div class="disc-icon">
+                                        <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu3"></i>
+                                        <ul class="collapse dropdown-menu text-right" id="menu3">
+                                            <li class="dropdown-item"><a class="edit-post">تعديل</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li class="dropdown-item"><a class="delete">حذف</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item 2-->
+
+
+                        <div class="item ">
+                            <div class="food">
+                                <img src="images/yalpeeh/shop/4.png">
+                                <div class="hidden-discrip">
+                                    <div class="discription">
+                                        <div class="disc-head">
+                                            <h6>دجاج مشوي</h6>
+                                            <span>15 ر.س</span>
+                                        </div>
+                                        <p>باستا , كرات اللحم , صوص من اختيارك (وايت او ريد) , بطاطس فريسكس , شيبسي</p>
+                                    </div>
+                                    <div class="disc-icon">
+                                        <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu4"></i>
+                                        <ul class="collapse dropdown-menu text-right" id="menu4">
+                                            <li class="dropdown-item"><a class="edit-post">تعديل</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li class="dropdown-item"><a class="delete">حذف</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item 3-->
+
+
+                        <div class="item ">
+                            <div class="food">
+                                <img src="images/yalpeeh/shop/5.png">
+                                <div class="hidden-discrip">
+                                    <div class="discription">
+                                        <div class="disc-head">
+                                            <h6>دجاج مشوي</h6>
+                                            <span>15 ر.س</span>
+                                        </div>
+                                        <p>باستا , كرات اللحم , صوص من اختيارك (وايت او ريد) , بطاطس فريسكس , شيبسي</p>
+                                    </div>
+                                    <div class="disc-icon">
+                                        <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu5"></i>
+                                        <ul class="collapse dropdown-menu text-right" id="menu5">
+                                            <li class="dropdown-item"><a class="edit-post">تعديل</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li class="dropdown-item"><a class="delete">حذف</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item 4-->
+
+
+                        <div class="item ">
+                            <div class="food">
+                                <img src="images/yalpeeh/shop/1.jpg">
+                                <div class="hidden-discrip">
+                                    <div class="discription">
+                                        <div class="disc-head">
+                                            <h6>بيتزا</h6>
+                                            <span>15 ر.س</span>
+                                        </div>
+                                        <p>باستا , كرات اللحم , صوص من اختيارك (وايت او ريد) , بطاطس فريسكس , شيبسي</p>
+                                    </div>
+                                    <div class="disc-icon">
+                                        <i class="fas fa-ellipsis-v " data-toggle="collapse" href="#menu2"></i>
+                                        <ul class="collapse dropdown-menu text-right" id="menu2">
+                                            <li class="dropdown-item"><a class="edit-post">تعديل</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li class="dropdown-item"><a class="delete">حذف</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item 4-->
+
+
+
+                    </div>
+                    <!--end carusal1-->
+
+                    <div class="text-center"><button class="btn send-suggest" onclick="location.href='shop-projects.html';">عرض الكل</button></div>
+
+
+
+                    <h5 style="margin: 10px;">مشاركات الزوار</h5>
+                    <div class="food-example">
+
+                        <div class=" food-slider owl-carousel owl-theme ">
+                            <div class="item">
+                                <div class="food">
+                                    <a data-toggle="modal" data-target="#sharedModal">
+                                        <img src="images/yalpeeh/shop/5.png"></a>
+                                    <div class="hidden-discrip">
+                                        <div class="discription">
+                                            <a class="toActivities">
+                                                <div class="visitor-opinion">
+                                                    <img src="images/yalpeeh/user.png">
+                                                    <div>
+                                                        <div class="disc-head">
+                                                            <h6>أوامر الشبكه</h6>
+                                                            <h6>9:47 م</h6>
+                                                        </div>
+                                                        <p>نص تجريبي يمكن أن يستبدل فيما بعد</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="disc-icon">
+                                            <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                            <ul class="collapse dropdown-menu text-right" id="menu2">
+                                                <li class="dropdown-item">تعديل</li>
+                                                <div class="dropdown-divider"></div>
+                                                <li class="dropdown-item">حذف</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--item 1 -->
+
+                            <div class="item">
+                                <div class="food">
+                                    <a data-toggle="modal" data-target="#sharedModal"><img src="images/yalpeeh/shop/7.png"></a>
+                                    <div class="hidden-discrip">
+                                        <div class="discription">
+                                            <a class="toActivities">
+                                                <div class="visitor-opinion">
+                                                    <img src="images/yalpeeh/user.png">
+                                                    <div>
+                                                        <div class="disc-head">
+                                                            <h6>أوامر الشبكه</h6>
+                                                            <h6>9:47 م</h6>
+                                                        </div>
+                                                        <p>نص تجريبي يمكن أن يستبدل فيما بعد</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="disc-icon">
+                                            <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                            <ul class="collapse dropdown-menu text-right" id="menu2">
+                                                <li class="dropdown-item">تعديل</li>
+                                                <div class="dropdown-divider"></div>
+                                                <li class="dropdown-item">حذف</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--item 2 -->
+
+
+                            <div class="item">
+                                <div class="food">
+                                    <a data-toggle="modal" data-target="#sharedModal"><img src="images/yalpeeh/shop/4.png"></a>
+                                    <div class="hidden-discrip">
+                                        <div class="discription">
+                                            <a class="toActivities">
+                                                <div class="visitor-opinion">
+                                                    <img src="images/yalpeeh/user.png">
+                                                    <div>
+                                                        <div class="disc-head">
+                                                            <h6>أوامر الشبكه</h6>
+                                                            <h6>9:47 م</h6>
+                                                        </div>
+                                                        <p>نص تجريبي يمكن أن يستبدل فيما بعد</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="disc-icon">
+                                            <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                            <ul class="collapse dropdown-menu text-right" id="menu2">
+                                                <li class="dropdown-item">تعديل</li>
+                                                <div class="dropdown-divider"></div>
+                                                <li class="dropdown-item">حذف</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--item 3 -->
+
+
+                            <div class="item">
+                                <div class="food">
+                                    <a data-toggle="modal" data-target="#sharedModal"><img src="images/yalpeeh/shop/11.png"></a>
+                                    <div class="hidden-discrip">
+                                        <div class="discription">
+                                            <a class="toActivities">
+                                                <div class="visitor-opinion">
+                                                    <img src="images/yalpeeh/user.png">
+                                                    <div>
+                                                        <div class="disc-head">
+                                                            <h6>أوامر الشبكه</h6>
+                                                            <h6>9:47 م</h6>
+                                                        </div>
+                                                        <p>نص تجريبي يمكن أن يستبدل فيما بعد</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="disc-icon">
+                                            <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                            <ul class="collapse dropdown-menu text-right" id="menu2">
+                                                <li class="dropdown-item">تعديل</li>
+                                                <div class="dropdown-divider"></div>
+                                                <li class="dropdown-item">حذف</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--item 4 -->
+
+
+                            <div class="item">
+                                <div class="food">
+                                    <a data-toggle="modal" data-target="#sharedModal"><img src="images/yalpeeh/shop/2.png"></a>
+                                    <div class="hidden-discrip">
+                                        <div class="discription">
+                                            <a class="toActivities">
+                                                <div class="visitor-opinion">
+                                                    <img src="images/yalpeeh/user.png">
+                                                    <div>
+                                                        <div class="disc-head">
+                                                            <h6>أوامر الشبكه</h6>
+                                                            <h6>9:47 م</h6>
+                                                        </div>
+                                                        <p>نص تجريبي يمكن أن يستبدل فيما بعد</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="disc-icon">
+                                            <i class="fas fa-ellipsis-v fa-lg" data-toggle="collapse" href="#menu2"></i>
+                                            <ul class="collapse dropdown-menu text-right" id="menu2">
+                                                <li class="dropdown-item">تعديل</li>
+                                                <div class="dropdown-divider"></div>
+                                                <li class="dropdown-item">حذف</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--item 5 -->
+
+                        </div>
+                        <!--end carusal 2-->
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="sharedModal">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class=" food-slider owl-carousel owl-theme ">
+                                            <div class="item m-3">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img src="images/yalpeeh/shop/imgModal.PNG" class="image-modal">
+                                                    </div>
+                                                    <div class="col-6" >
+                                                        <div class="modal-cont">
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <h6>أوامر الشبكه</h6>
+                                                                    <p><i class="fa fa-star"></i> 55 تقييم </p>
+                                                                </div>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <p>
+                                                                نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد
+                                                            </p>
+                                                            <div class="my-2 py-2 border-bottom border-top">
+                                                                <i class="fa fa-heart text-danger"></i>
+                                                                <i class="far fa-smile"></i>
+                                                                <i class="far fa-frown"></i>
+                                                            </div>
+                                                            <h6>التعليقات</h6>
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>نص تجريبي يمكن ان يستبدل فيما بعد</p>
+                                                                    </div>
+                                                                    <div class="py-2">
+                                                                        <i class="fa fa-heart text-danger"></i>
+                                                                        <i class="far fa-smile"></i>
+                                                                        <i class="far fa-frown"></i>
+                                                                        <span class="mx-2 comment-time">منذ عشر دقائق</span>
+                                                                        <span class="mx-2 cut">10د</span>
+                                                                        <span class="mx-2"><i class="fa fa-share ml-1"></i><span class="share">أضف رد</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/shop/hqdefault.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>نص تجريبي يمكن ان يستبدل فيما بعد</p>
+                                                                    </div>
+                                                                    <div class="py-2">
+                                                                        <i class="fa fa-heart text-danger"></i>
+                                                                        <i class="far fa-smile"></i>
+                                                                        <i class="far fa-frown"></i>
+                                                                        <span class="mx-2 comment-time">منذ عشر دقائق</span>
+                                                                        <span class="mx-2 cut">10د</span>
+                                                                        <span class="mx-2"><i class="fa fa-share ml-1"></i><span class="share">أضف رد</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="visitor-opinion ">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>اكتب تعليق ..</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--item 1 in modal-->
+                                            <div class="item m-3">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img src="images/yalpeeh/shop/9.PNG" class="image-modal">
+                                                    </div>
+                                                    <div class="col-6" >
+                                                        <div class="modal-cont">
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <h6>أوامر الشبكه</h6>
+                                                                    <p><i class="fa fa-star"></i> 55 تقييم </p>
+                                                                </div>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <p>
+                                                                نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد نص تجريبي يمكن ان يستبدل فيما بعد
+                                                            </p>
+                                                            <div class="my-2 py-2 border-bottom border-top">
+                                                                <i class="fa fa-heart text-danger"></i>
+                                                                <i class="far fa-smile"></i>
+                                                                <i class="far fa-frown"></i>
+                                                            </div>
+                                                            <h6>التعليقات</h6>
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>نص تجريبي يمكن ان يستبدل فيما بعد</p>
+                                                                    </div>
+                                                                    <div class="py-2">
+                                                                        <i class="fa fa-heart text-danger"></i>
+                                                                        <i class="far fa-smile"></i>
+                                                                        <i class="far fa-frown"></i>
+                                                                        <span class="mx-2 comment-time">منذ عشر دقائق</span>
+                                                                        <span class="mx-2 cut">10د</span>
+                                                                        <span class="mx-2"><i class="fa fa-share ml-1"></i><span class="share">أضف رد</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="visitor-opinion">
+                                                                <a class="toActivities"><img src="images/yalpeeh/shop/hqdefault.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>نص تجريبي يمكن ان يستبدل فيما بعد</p>
+                                                                    </div>
+                                                                    <div class="py-2">
+                                                                        <i class="fa fa-heart text-danger"></i>
+                                                                        <i class="far fa-smile"></i>
+                                                                        <i class="far fa-frown"></i>
+                                                                        <span class="mx-2 comment-time">منذ عشر دقائق</span>
+                                                                        <span class="mx-2 cut">10د</span>
+                                                                        <span class="mx-2"><i class="fa fa-share ml-1"></i><span class="share">أضف رد</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="visitor-opinion ">
+                                                                <a class="toActivities"><img src="images/yalpeeh/user.png"></a>
+                                                                <div>
+                                                                    <div class="comment ">
+                                                                        <h6>اسم المستخدم</h6>
+                                                                        <p>اكتب تعليق ..</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--item 2 in modal-->
+                                        </div>
+                                        <!--end carusal 2-->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center"><button class="btn send-suggest" onclick="location.href='visitor-posts.html';">عرض الكل</button></div>
+
+
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <span>اسئله طرحها الاخرون</span>
+                                    <a href="#">المزيد</a>
+                                </div>
+                                <div class="card-content">
+                                    <div>
+                                        <p class="title" data-toggle="collapse" href="#collapseCard1"><i class="fas fa-plus"></i> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                        <p class="collapse" id="collapseCard1">
+                                            إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <p class="title" data-toggle="collapse" href="#collapseCard2"><i class="fas fa-plus"></i> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                        <p class="collapse" id="collapseCard2">
+                                            إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <p class="title" data-toggle="collapse" href="#collapseCard3"><i class="fas fa-plus"></i> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                        <p class="collapse" id="collapseCard3">
+                                            إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <p class="title" data-toggle="collapse" href="#collapseCard4"><i class="fas fa-plus"></i> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                        <p class="collapse" id="collapseCard4">
+                                            إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <p class="title" data-toggle="collapse" href="#collapseCard5"><i class="fas fa-plus"></i> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                        <p class="collapse" id="collapseCard5">
+                                            إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات كما تريد , النص لن يبدو مقسما ولا يحوي أخطاء لغويه , مولد النص العربي مفيد لمصممي المواقع عبي وجه الخصوص
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <span>سؤال جديد</span>
+                                </div>
+                                <div class="card-content">
+                                    <div>
+                                        <p class="title"> نص تدريبي يمكن أن يستبدل فيما بعد ؟ </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form>
+                            <div class="form-row">
+                                <div class="col-9">
+                                    <input type="text" class="form-control" placeholder="رد">
+                                </div>
+                                <div class="col-3">
+                                    <button class="send form-control">إرسال</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- contacts ---------------------------------------- -->
+    <section class="contacts">
+        <div class="container text-right">
+            <div class="row">
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <a href="index.html"><img src="images/yalpeeh/login.png" style="width: 20%;"></a>
+                    <a href="#"><i class="fa fa-phone"></i>966 5698 5698 6542</a>
+                    <a href="#"><i class="fa fa-envelope"></i>labaih@gmail.com </a>
+                </div>
+
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <h5>روابط سريعه </h5>
+                    <ul>
+                        <li><a href="index.html" style="color:#ab0001 ;">الرئيسيه</a></li>
+                        <li><a href="Categories.html">تصنيفات الدليل</a></li>
+                        <li><a class="toFavouritsPage">المفضله</a></li>
+                        <li><a href="about%20labeih.html">حول يالبيه</a></li>
+                        <li><a href="contact%20us.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contacts-content col-md-4 col-12">
+                    <h5>مساعده </h5>
+                    <ul>
+                        <li><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                        <li><a href="suggest%20place.html">اقترح مكان</a></li>
+                        <li><a href="policy.html">سياسة الموقع</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer  --------------------------------------->
+        <footer class="container">
+            <div class="footer text-right">
+                <p>تصميم وبرمجة شركة <span> أوامر الشبكه </span>2019</p>
+                <p>جميع الحقوق محفوظه لموقع <span> لبيه </span>2019</p>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="js/vendors/JQuery-3.3.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/jQuery-Form-Validator-master/form-validator/jquery.form-validator.min.js"></script>
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

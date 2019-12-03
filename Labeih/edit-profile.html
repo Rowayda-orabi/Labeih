@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+        <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+        <link href="css/vendor/owl.carousel.min.css" rel="stylesheet" />
+        <link href="css/vendor/owl.theme.default.min.css" rel="stylesheet" />
+        <link href="css/yalpeehstyle.css" rel="stylesheet" />
+        <title>Edit Profile</title>
+    </head>
+
+    <body>
+        <header>
+            <section class=" container text-right">
+            <div class="row">
+                <div class="log col-sm-6 col-5">
+                        <span><i class="fa fa-user"></i><a href="old-login.html"> تسجيل دخول</a></span>
+                        <span><i class="fa fa-users"></i><a href="new-login.html"> تسجيل جديد</a></span>
+                    </div>
+                    <div class="conect col-sm-6 col-7">
+                        <span><i class="fa fa-phone"></i><a href="#">966 5698 5698 6542</a></span>
+                        <span><i class="fa fa-globe"></i><a href="#">اللغه </a></span>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+
+        <section class="container">
+        <div class="main-navigatin row">
+            <div class="navbar col-lg-7 col-12">
+                <a class="navbar-brand" href="index.html">
+                  <img class="logo" src=images/yalpeeh/login.png>
+                   </a>
+                   <ul class="nav">
+                    <li class="nav-item "><a class="nav-link" href="index.html">الرئيسيه</a></li>
+                    <li class="nav-item "><a class="nav-link" href="Categories.html">تصنيفات الدليل</a></li>
+                    <li class="nav-item " style="position: relative">
+                        <a class="nav-link" data-toggle="collapse" href=".dropdown-menu" aria-controls="collapseExample">
+                            المزيد
+                        </a>
+                        <ul class="collapse dropdown-menu text-right" id="collapseExample" >
+                            <li class="dropdown-item"><a class="toFavouritsPage">المفضله</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="about%20labeih.html">حول يالبيه</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="contact%20us.html">اتصل بنا</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="suggest%20place.html">اقترح مكان</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="policy.html">سياسه الموقع</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="notifications.html">الإشعارات
+                            <sup><span class="badre badge-danger badge-pill">1</span></sup></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-mobile col-lg-5 col-12">
+                <a href="#" class="col-6" >
+                    <img src="images/google-play.png">
+                </a>
+                <a href="#" class="col-6">
+                    <img src="images/app-store.png">
+                </a>
+            </div>
+        </div>
+    </section>
+        
+        
+        <!-- edit-profile------------------------------------------- -->
+    <section class="edit-profile mb-3">
+       <div class="inner-title text-center">
+            <h4>Edit Profile </h4>
+           <h4>تعديل الملف الشخصي</h4>
+        </div>
+        <div class="container text-right">
+            <div class="change-photo">
+                <input type="file" accept="image/*" id="img">
+                <label for="img"><i class="fa fa-camera" ></i>
+                <img src="images/yalpeeh/user.png" class="img" id="profile-img">
+                </label>
+            </div>
+            <div>
+                <div class="my-5">
+                    <h5>البيانات الشخصيه</h5>
+                    <form>
+                        <div class="form-row my-3">
+                            <div class="col">
+                              <input type="text" class="form-control form-control-lg" placeholder="مروه سامي فكري">
+                            </div>
+                            <div class="col">
+                                 <input type="tel" class="form-control form-control-lg" placeholder="0123456789">
+                            </div>
+                        </div>
+                        <div class="form-row my-3">
+                            <div class="col">
+                              <input type="url" class="form-control form-control-lg" placeholder="marwasamy@gmail.com">
+                            </div>
+                            <div class="col">
+                                 <input type="text" class="form-control form-control-lg" placeholder="المدينه">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="my-5">
+                    <h5>تغيير كلمة المرور</h5>
+                    <form>
+                        <div class="form-row my-3">
+                            <div class="col">
+                              <input type="password" class="form-control form-control-lg" placeholder="كلمة المرور الحاليه">
+                            </div>
+                            <div class="col">
+                                 <input type="password" name="pass" class="form-control form-control-lg" placeholder="كلمة المرور الجديده">
+                            </div>
+                        </div>
+                        <div class="form-row my-3">
+                            <div class="col-6">
+                              <input type="password" class="form-control form-control-lg" placeholder="تأكيد كلمة المرور" data-validation="confirmation" data-validation-confirm="pass" data-validation-error-msg-confirmation="كلمات المرور غير متطابقه">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="profile-page.html#nav-myActvities"><button class="btn send-suggest">حفظ التعديلات</button></a>
+            </div>
+        </div>
+    </section>
+        
+        
+    <!-- contacts ---------------------------------------- -->
+    <section class="contacts">
+        <div class="container text-right">
+            <div class="row">
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <a href="index.html"><img src="images/yalpeeh/login.png" style="width: 20%;"></a>
+                    <a href="#"><i class="fa fa-phone"></i>966 5698 5698 6542</a>
+                    <a href="#"><i class="fa fa-envelope"></i>labaih@gmail.com </a>
+                </div>
+
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <h5>روابط سريعه </h5>
+                    <ul>
+                        <li><a href="index.html" style="color:#ab0001 ;">الرئيسيه</a></li>
+                        <li><a href="Categories.html">تصنيفات الدليل</a></li>
+                        <li><a class="toFavouritsPage">المفضله</a></li>
+                        <li><a href="about%20labeih.html">حول يالبيه</a></li>
+                        <li><a href="contact%20us.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contacts-content col-md-4 col-12">
+                    <h5>مساعده </h5>
+                    <ul>
+                        <li><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                        <li><a href="suggest%20place.html">اقترح مكان</a></li>
+                        <li><a href="policy.html">سياسة الموقع</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer  --------------------------------------->
+        <footer class="container">
+        <div class="footer text-right">
+            <p>تصميم وبرمجة شركة <span> أوامر الشبكه </span>2019</p>
+            <p>جميع الحقوق محفوظه لموقع <span> لبيه </span>2019</p>
+        </div>
+    </footer>
+    </section>
+
+
+
+    <script src="js/vendors/JQuery-3.3.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/jQuery-Form-Validator-master/form-validator/jquery.form-validator.min.js"></script>
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

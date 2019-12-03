@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+    <link href="css/vendor/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/vendor/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/yalpeehstyle.css" rel="stylesheet" />
+    <title>Add Shop</title>
+</head>
+
+<body>
+    <header>
+        <section class=" container text-right">
+            <div class="row">
+                <div class="log col-sm-6 col-5">
+                        <span><i class="fa fa-user"></i><a href="old-login.html"> تسجيل دخول</a></span>
+                        <span><i class="fa fa-users"></i><a href="new-login.html"> تسجيل جديد</a></span>
+                    </div>
+                    <div class="conect col-sm-6 col-7">
+                        <span><i class="fa fa-phone"></i><a href="#">966 5698 5698 6542</a></span>
+                        <span><i class="fa fa-globe"></i><a href="#">اللغه </a></span>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+
+        <section class="container">
+        <div class="main-navigatin row">
+            <div class="navbar col-lg-7 col-12">
+                <a class="navbar-brand" href="index.html">
+                  <img class="logo" src=images/yalpeeh/login.png>
+                   </a>
+                   <ul class="nav">
+                    <li class="nav-item "><a class="nav-link" href="index.html">الرئيسيه</a></li>
+                    <li class="nav-item "><a class="nav-link" href="Categories.html">تصنيفات الدليل</a></li>
+                    <li class="nav-item " style="position: relative">
+                        <a class="nav-link" data-toggle="collapse" href=".dropdown-menu" aria-controls="collapseExample">
+                            المزيد
+                        </a>
+                        <ul class="collapse dropdown-menu text-right" id="collapseExample" >
+                            <li class="dropdown-item"><a class="toFavouritsPage">المفضله</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="about%20labeih.html">حول يالبيه</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="contact%20us.html">اتصل بنا</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="suggest%20place.html">اقترح مكان</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li class="dropdown-item"><a href="policy.html">سياسه الموقع</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="notifications.html">الإشعارات
+                            <sup><span class="badre badge-danger badge-pill">1</span></sup></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="for-mobile col-lg-5 col-12">
+                <a href="#" class="col-6" >
+                    <img src="images/google-play.png">
+                </a>
+                <a href="#" class="col-6">
+                    <img src="images/app-store.png">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--add shop ------------------------------------------- -->
+    <section class="add-shop mb-3">
+        <div class="inner-title text-center">
+            <h4> Add Shop</h4>
+            <h4> اضافة محل </h4>
+        </div>
+        <div class="container text-right ">
+            <div class="row " style="direction: ltr; border-bottom: 1px solid #ddd; margin-bottom: 10px;">
+                <div class="col-12 col-md-5">
+                    <div>
+                        <img src="images/yalpeeh/shop/map.png" style="width: 100%;">
+                    </div>
+                    <div class="form-group form-row mt-3" style="direction: rtl">
+                        <h6 class="mt-3">أيام العمل</h6>
+                        <div class="table-days">
+                            <table class="table table-borderless mt-1">
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="sat">
+                                        <label for="sat">السبت</label>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="tue">
+                                        <label for="tue">الثلاثاء</label>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="fri">
+                                        <label for="fri">الجمعه</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="sun">
+                                        <label for="sun">الأحد</label>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="wed">
+                                        <label for="wed">الأربعاء</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="mon">
+                                        <label for="mon">الإثنين</label>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="thur">
+                                        <label for="thur">الخميس</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7" style="direction: rtl">
+                    <div class="ml-4">
+                        <div class="form-group row">
+                            <h6 class=" col-2">الاسم</h6>
+                            <input type="text" class="col-10 form-control" placeholder="مطعم كرم الشام">
+                        </div>
+                        <div class="form-group row">
+                            <h6 class=" col-2">الوصف</h6>
+                            <textarea class="col-10 form-control" placeholder="إذا كنت تحتاج إلي عدد أكبرمن الفقرات يتيج لك مولد النص العربي زيادة عدد الفقرات    " style="height: 90px;"></textarea>
+                        </div>
+                        <div class="form-group row">
+                            <h6 class=" col-2">الامتيازات</h6>
+                            <textarea class="col-10 form-control" placeholder="جلسات عائليه , مشروبات , واي فاي , منطقه للأطفال  " style="height: 70px;"></textarea>
+                        </div>
+                        <div class="form-group form-row">
+                            <h6 class=" col-2">طرق الدفع</h6>
+                            <div class=" col-10 ">
+                                <div class="table-days">
+                                    <table class=" table table-borderless pay">
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                                <label>الدفع بالفيزا</label>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox">
+                                                <label>الدفع بمدي</label>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox">
+                                                <label>الدفع عند الاستلام</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                                <label>تحويل بنكي</label>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox">
+                                                <label>ماستر كارد</label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <h6 class=" col-2">العنوان</h6>
+                            <input class="col-10 form-control" placeholder="السعوديه مكه شارع حي الجامعه" type="text">
+                        </div>
+                        <div class="form-group row ">
+                            <h6 class=" col-2">رقم الهاتف</h6>
+                            <input class="col-10 form-control" placeholder="99999 444 444 5" type="tel">
+                        </div>
+                        <div class="form-group row ">
+                            <h6 class=" col-2">الايميل</h6>
+                            <input class="col-10 form-control" placeholder="yal@gmail.com" type="tel">
+                        </div>
+                        <div class="form-group row work-time">
+                            <h6 class=" col-2">اوقات العمل</h6>
+                            <span>من</span><input class="col-4 form-control" placeholder="12:00 ص" type="time"><span>إلي</span><input class="col-4 form-control" placeholder="12:00 ص" type="time">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5>اضافة منتجات </h5>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/yalpeeh/shop/2.png" style="width: 100%">
+                </div>
+                <div class="col-3">
+                    <div>
+                        <input type="file" id="file1">
+                        <label class="file-label" for="file1"><i class="fas fa-folder-plus"></i>
+                        <img class="img" id="img1">
+                        </label>
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <div>
+                        <input type="file" id="file2">
+                        <label class="file-label" for="file2"><i class="fas fa-folder-plus"></i>
+                        <img class="img" id="img2">
+                        </label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <input type="file" id="file3">
+                        <label class="file-label" for="file3"><i class="fas fa-folder-plus"></i>
+                        <img class="img" id="img3">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><a href="shop.html"><button class="btn send-suggest"><i class="fa fa-plus ml-2"></i> إضافه</button></a></div>
+        </div>
+
+    </section>
+    <!-- contacts ---------------------------------------- -->
+    <section class="contacts">
+        <div class="container text-right">
+            <div class="row">
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <a href="index.html"><img src="images/yalpeeh/login.png" style="width: 20%;"></a>
+                    <a href="#"><i class="fa fa-phone"></i>966 5698 5698 6542</a>
+                    <a href="#"><i class="fa fa-envelope"></i>labaih@gmail.com </a>
+                </div>
+
+                <div class="contacts-content col-md-4 col-12 border-left">
+                    <h5>روابط سريعه </h5>
+                    <ul>
+                        <li><a href="index.html" style="color:#ab0001 ;">الرئيسيه</a></li>
+                        <li><a href="Categories.html">تصنيفات الدليل</a></li>
+                        <li><a class="toFavouritsPage">المفضله</a></li>
+                        <li><a href="about%20labeih.html">حول يالبيه</a></li>
+                        <li><a href="contact%20us.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contacts-content col-md-4 col-12">
+                    <h5>مساعده </h5>
+                    <ul>
+                        <li><a href="duplicated%20questions.html">اسئله مكرره</a></li>
+                        <li><a href="suggest%20place.html">اقترح مكان</a></li>
+                        <li><a href="policy.html">سياسة الموقع</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer  --------------------------------------->
+        <footer class="container">
+            <div class="footer text-right">
+                <p>تصميم وبرمجة شركة <span> أوامر الشبكه </span>2019</p>
+                <p>جميع الحقوق محفوظه لموقع <span> لبيه </span>2019</p>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="js/vendors/JQuery-3.3.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/jQuery-Form-Validator-master/form-validator/jquery.form-validator.min.js"></script>
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
