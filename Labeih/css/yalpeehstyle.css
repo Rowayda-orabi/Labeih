@@ -36,6 +36,9 @@ a,a:hover{
 .send-suggest a{
     color: #fff;
 }
+ .form-control, .form-control-lg, .custom-select-lg, textarea {
+    font-size: 15px;
+}
 /* first header  -------------------------------------------------------*/
 .heading{
     margin: auto;
@@ -273,7 +276,6 @@ header a,header a:hover{
     display: flex;
     margin: 10px;
 }
-.
 .places .places-content img{
     margin-left: 20px;
 }
@@ -392,7 +394,10 @@ header a,header a:hover{
 .opinions .user-opinion{
     margin: 10px; 
 }
-
+.opinions .user-opinion p{
+    font-size: 13px;
+    color: #888;
+}
 .icons{
     display: flex;
 }
